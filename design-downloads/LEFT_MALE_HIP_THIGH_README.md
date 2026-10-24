@@ -1,5 +1,7 @@
 # Updated smooth CAD for NX 2406 and ANSYS
 
+[Read the full methodology, sources and construction record](METHODOLOGY_LEFT_MALE_HIP_THIGH.md).
+
 [Download the smooth CAD revision](NX_SMOOTH_CAD.zip). Extract the ZIP and open `START_HERE_NX_SMOOTH_ASSEMBLY.step` in NX. The archive also includes the three individual STEP parts.
 
 The bones now use curved CAD surfaces. The soft-tissue cavities are rebuilt from those same surfaces, preserving matching interfaces. The STEP AP214 assembly has 5,574 faces instead of approximately 140,000, and all three solid bodies pass the geometry and import checks.

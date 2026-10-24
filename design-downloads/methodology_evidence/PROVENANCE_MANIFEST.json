@@ -1,0 +1,66 @@
+{
+  "described_geometry_revision": "f0e0df1864328c956db4f07b40eb14821439c6de",
+  "software_versions": {
+    "Python": "3.12.14",
+    "Blender": "4.3.2",
+    "cadquery": "2.7.0",
+    "cadquery-ocp": "7.8.1.1.post1",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "vtk": "9.3.1",
+    "trimesh": "5.1.1",
+    "manifold3d": "3.5.4"
+  },
+  "user_inputs": {
+    "FEMUR_matched.stl": {
+      "bytes": 10941284,
+      "sha256": "8fa62f21d03bb84ab4c8b1a735140df01677d6a55e8f1b7cade8a1193217169e",
+      "provenance": "Uploaded by the user; original acquisition and licence not independently established."
+    },
+    "HIP_matched.stl": {
+      "bytes": 10230884,
+      "sha256": "fd664ea0fb8ca538beebddd08c0156a7a88297203bb56793db6fc1293c87f68e",
+      "provenance": "Uploaded by the user; original acquisition and licence not independently established."
+    }
+  },
+  "upstream_repositories": {
+    "MakeHuman": {
+      "url": "https://github.com/makehumancommunity/makehuman.git",
+      "commit": "a8bc2d54ff0ac92e78ff71431b1023eda42bf482"
+    },
+    "Z-Anatomy": {
+      "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy.git",
+      "commit": "d71cd657a0fd9fc774261ba403bc0a1e8eccd176"
+    }
+  },
+  "scripts": {
+    "build_anatomy.py": {
+      "sha256": "d26d3d96336936ce73cf077a7abd686b3f2a52cab73080caa0a7f1bcf38529e8"
+    },
+    "build_curved.py": {
+      "sha256": "44b58557a3c5abc4e269dcbd584ecb34d22978f91b912d7f3880a338c9fdfecf"
+    },
+    "export_fast.py": {
+      "sha256": "d8c2eb27af1c086141e079bf57991304a9984316485cf604a3b4b969ed080701"
+    },
+    "extract_atlas.py": {
+      "sha256": "9f757c9da62dba4c519ae216e03172146cf81e14d3d4a338d42b1a4d3f920858"
+    },
+    "prepare_body.py": {
+      "sha256": "d16e5fb1d14b8c42692bf7dd15b22a6d08216835dfca81d2a1ae29ec6c2c24fc"
+    },
+    "refine_hip.py": {
+      "sha256": "1ce7a70cb9ba3a69ad5f77df3451aefd062c95a52a0df7126ce245bd6864ce94"
+    },
+    "register_detail.py": {
+      "sha256": "46c06d6c944b0bbe35a6035ce9a4484c981135e2d471b388b54a55afb3e667d7"
+    },
+    "retopo_fast.py": {
+      "sha256": "1a54b3ddc2e48cea6e3c3250177cc10d32bbb34155a7a59f7dd2e899b94608e1"
+    },
+    "skin_cad.py": {
+      "sha256": "c88ff52599aaa08b131acfcb08030340493096dd1e71e9567cce6b5d10cfda37"
+    }
+  },
+  "note": "Upstream files, intermediate geometry and the workspace folder layout are required to execute these scripts; this audit bundle is not a standalone one-command rebuild."
+}

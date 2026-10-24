@@ -1,0 +1,48 @@
+{
+  "FEMUR_L": {
+    "solid_valid": true,
+    "faces": 928,
+    "volume_mm3": 630653.3430750015,
+    "mesh_watertight": true,
+    "sampled_median_difference_mm": 0.12201802501229587,
+    "sampled_p95_difference_mm": 0.9488799746538831,
+    "sampled_max_difference_mm": 3.0570598849860837,
+    "samples": 23838,
+    "minimum_sampled_skin_cover_mm": 3.339302790729278,
+    "individual_step_reopened": true,
+    "step_read_seconds": 1.3435397148132324
+  },
+  "HIP_L": {
+    "solid_valid": true,
+    "faces": 1856,
+    "volume_mm3": 362485.5637661093,
+    "mesh_watertight": true,
+    "sampled_median_difference_mm": 0.08631100107252737,
+    "sampled_p95_difference_mm": 0.8245283691233373,
+    "sampled_max_difference_mm": 5.685291604802785,
+    "samples": 23410,
+    "minimum_sampled_skin_cover_mm": 2.5852416249878085,
+    "individual_step_reopened": true,
+    "step_read_seconds": 3.097388982772827
+  },
+  "SOFT_TISSUE_L": {
+    "solid_valid": true,
+    "faces": 2790,
+    "shells": 3,
+    "volume_balance_error_mm3": 0.040807839250192046,
+    "individual_step_reopened": true,
+    "step_read_seconds": 5.719640016555786
+  },
+  "assembly": {
+    "valid_after_reopening": true,
+    "solid_bodies": 3,
+    "total_faces": 5574,
+    "step_bytes": 28580079,
+    "read_seconds_opencascade": 6.911117076873779,
+    "file_schema": "AP214",
+    "surface_boundaries_included": true,
+    "old_step_bytes": 158938077,
+    "old_total_faces": 139998,
+    "exact_cad_bone_overlap_mm3": 0.0
+  }
+}

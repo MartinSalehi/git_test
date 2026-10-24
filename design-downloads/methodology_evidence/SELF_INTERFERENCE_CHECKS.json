@@ -1,0 +1,10 @@
+{
+  "FEMUR_L": {
+    "full_geometry_check_valid": true,
+    "seconds": 33.730005502700806
+  },
+  "HIP_L": {
+    "full_geometry_check_valid": true,
+    "seconds": 67.62477254867554
+  }
+}
