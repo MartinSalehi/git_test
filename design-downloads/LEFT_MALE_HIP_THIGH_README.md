@@ -1,3 +1,17 @@
+# Updated smooth CAD for NX 2406 and ANSYS
+
+[Download the smooth CAD revision](NX_SMOOTH_CAD.zip). Extract the ZIP and open `START_HERE_NX_SMOOTH_ASSEMBLY.step` in NX. The archive also includes the three individual STEP parts.
+
+The bones now use curved CAD surfaces. The soft-tissue cavities are rebuilt from those same surfaces, preserving matching interfaces. The STEP AP214 assembly has 5,574 faces instead of approximately 140,000, and all three solid bodies pass the geometry and import checks.
+
+For ANSYS, keep the three material bodies. Use shared topology or bonded contact if you assume attached tissue; use the appropriate separate contact model if sliding or separation is intended. The archive includes `ANSYS_INTERFACE_NOTES.txt`. Geometry checks do not replace material, support, and mesh-convergence checks for an actual load case.
+
+The older ZIP files remain available as the original dense version for comparison.
+
+---
+
+## Original dense-version documentation
+
 # Generic adult male — left hip, buttock and thigh
 
 Open **NX_LEFT_MALE_HIP_THIGH_ASSEMBLY.step** in Siemens NX. It is a STEP AP214 assembly with three named, separate solid components:
